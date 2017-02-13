@@ -42,6 +42,6 @@ will be great to 'hook' the errors to slack, so team-members would be notified i
 * Caching, with more 'accurate', to speed things up.
 * additional remote logging, possibly using an external service like papertrail.
 
-## Rum
+## Run
 * npm install
 * npm run
