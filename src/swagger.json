@@ -145,6 +145,10 @@
                 "onTime": {
                     "type": "boolean",
                     "description": "Whether the departure is on time or not"
+                },
+                "type": {
+                    "type": "string",
+                    "description": "Type of departure"
                 }
             }
         },
