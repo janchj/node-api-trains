@@ -1,0 +1,445 @@
+{
+  "requestId": "tder7Z1Yl0e+rjAXrKJQRA",
+  "isRealTimeDataAvailable": true,
+  "service": {
+    "serviceUid": "W38217",
+    "serviceOperator": "SW",
+    "transportMode": "TRAIN",
+    "serviceOrigins": [
+      "WAT"
+    ],
+    "serviceDestinations": [
+      "WNR"
+    ],
+    "stops": [
+      {
+        "location": {
+          "crs": "WAT"
+        },
+        "arrival": {
+          "notApplicable": true
+        },
+        "departure": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T15:58:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": true,
+              "realTime": "2017-02-13T15:58:00+00:00",
+              "realTimePlatform": "18",
+              "realTimeFlag": "Actual"
+            }
+          }
+        },
+        "callingType": "PickUp"
+      },
+      {
+        "location": {
+          "crs": "VXH"
+        },
+        "arrival": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:02:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": true,
+              "realTime": "2017-02-13T16:01:00+00:00",
+              "realTimePlatform": "3",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:02:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2017-02-13T16:02:00+00:00",
+              "realTimePlatform": "3",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": {
+          "crs": "CLJ"
+        },
+        "arrival": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:07:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2017-02-13T16:06:00+00:00",
+              "realTimePlatform": "6",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:08:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2017-02-13T16:08:00+00:00",
+              "realTimePlatform": "6",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": {
+          "crs": "PUT"
+        },
+        "arrival": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:11:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2017-02-13T16:11:00+00:00",
+              "realTimePlatform": "4",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:12:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2017-02-13T16:12:00+00:00",
+              "realTimePlatform": "4",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": {
+          "crs": "RMD"
+        },
+        "arrival": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:17:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2017-02-13T16:17:00+00:00",
+              "realTimePlatform": "1",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:18:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2017-02-13T16:18:00+00:00",
+              "realTimePlatform": "1",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": {
+          "crs": "TWI"
+        },
+        "arrival": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:21:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2017-02-13T16:21:00+00:00",
+              "realTimePlatform": "5",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:22:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2017-02-13T16:22:00+00:00",
+              "realTimePlatform": "5",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": {
+          "crs": "WTN"
+        },
+        "arrival": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:25:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2017-02-13T16:25:00+00:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:25:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2017-02-13T16:25:00+00:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": {
+          "crs": "FEL"
+        },
+        "arrival": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:29:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2017-02-13T16:29:00+00:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:29:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2017-02-13T16:29:00+00:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": {
+          "crs": "AFS"
+        },
+        "arrival": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:33:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2017-02-13T16:33:00+00:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:33:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2017-02-13T16:33:00+00:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": {
+          "crs": "SNS"
+        },
+        "arrival": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:37:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2017-02-13T16:37:00+00:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:37:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2017-02-13T16:37:00+00:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": {
+          "crs": "WRY"
+        },
+        "arrival": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:41:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2017-02-13T16:41:00+00:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:41:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2017-02-13T16:41:00+00:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": {
+          "crs": "SNY"
+        },
+        "arrival": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:44:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2017-02-13T16:44:00+00:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:44:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2017-02-13T16:44:00+00:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": {
+          "crs": "DAT"
+        },
+        "arrival": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:47:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2017-02-13T16:47:00+00:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:47:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2017-02-13T16:47:00+00:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": {
+          "crs": "WNR"
+        },
+        "arrival": {
+          "scheduled": {
+            "scheduledTime": "2017-02-13T16:52:00+00:00"
+          },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2017-02-13T16:52:00+00:00",
+              "realTimePlatform": "1",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "notApplicable": true
+        },
+        "callingType": "SetDown"
+      }
+    ]
+  }
+}

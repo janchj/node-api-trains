@@ -1,0 +1,1083 @@
+{
+  "queryEarlierServices": "https://realtime.thetrainline.com/Departures/WAT?Date=2017-02-13&Time=15:53&ExpectedWindow=-64&DesiredNumberOfServices=50",
+  "queryLaterServices": "https://realtime.thetrainline.com/Departures/WAT?Date=2017-02-13&Time=16:59&DesiredNumberOfServices=50",
+  "realTimeDataSourceAvailable": true,
+  "timestamp": "2017-02-13T15:54:00+00:00",
+  "services": [
+    {
+      "serviceIdentifier": "W34167",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T15:54:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "DKG"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T15:53:00+00:00",
+          "realTimePlatform": "1",
+          "realTimeFlag": "Actual"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W34167/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W36864",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T15:57:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WAT"
+        }
+      ],
+      "via": "via Kingston & Richmond",
+      "circularRoute": true,
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T15:57:00+00:00",
+          "realTimePlatform": "4",
+          "realTimeFlag": "Estimate"
+        },
+        "delayReason": {
+          "code": "153",
+          "reasonText": "This train has been delayed by earlier signalling problems"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W36864/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W38217",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T15:58:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WNR"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T15:58:00+00:00",
+          "realTimePlatform": "18",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W38217/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W34722",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:00:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "PMH"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:00:00+00:00",
+          "realTimePlatform": "10",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W34722/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W37523",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:01:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WAT"
+        }
+      ],
+      "via": "via Richmond & Kingston",
+      "circularRoute": true,
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:01:00+00:00",
+          "realTimePlatform": "17",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W37523/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W36335",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:03:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "GLD"
+        }
+      ],
+      "via": "via Cobham",
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:03:00+00:00",
+          "realTimePlatform": "3",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W36335/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W35077",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:05:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WEY"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:05:00+00:00",
+          "realTimePlatform": "8",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W35077/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W35467",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:05:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "RDG"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:05:00+00:00",
+          "realTimePlatform": "14",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W35467/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "Z03248",
+      "serviceOperator": "*B",
+      "transportMode": "BUS",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:05:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "XTH"
+        }
+      ],
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/Z03248/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W36722",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:06:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "HMC"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:06:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W36722/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W38342",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:07:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WAT"
+        }
+      ],
+      "via": "via Hounslow & Richmond",
+      "circularRoute": true,
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:07:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W38342/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W34882",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:09:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "PMH"
+        }
+      ],
+      "via": "via Basingstoke ",
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:09:00+00:00",
+          "realTimePlatform": "5",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W34882/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W35578",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:09:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "GLD"
+        }
+      ],
+      "via": "via Epsom",
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:09:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W35578/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W36516",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:12:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "SHP"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:12:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W36516/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W37000",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:12:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "BSK"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:12:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W37000/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W37673",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:15:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "PMH"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:15:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W37673/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W37817",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:15:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WAT"
+        }
+      ],
+      "via": "via Richmond & Hounslow",
+      "circularRoute": true,
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:15:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W37817/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W37209",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:16:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "CSS"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:16:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W37209/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W34537",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:20:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "EXD"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:20:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W34537/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W35366",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:20:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "RDG"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:20:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W35366/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W35898",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:20:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WOK"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:20:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W35898/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "Z03249",
+      "serviceOperator": "*B",
+      "transportMode": "BUS",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:20:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "XTH"
+        }
+      ],
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/Z03249/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W37999",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:22:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WYB"
+        }
+      ],
+      "via": "via Hounslow & Staines",
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:22:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W37999/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W34172",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:24:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "DKG"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:24:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W34172/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W33950",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:25:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "AON"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:25:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W33950/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W36866",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:27:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WAT"
+        }
+      ],
+      "via": "via Kingston & Richmond",
+      "circularRoute": true,
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:27:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W36866/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W38222",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:28:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WNR"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:28:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W38222/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W34727",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:30:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "PMH"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:30:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W34727/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W37526",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:31:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WAT"
+        }
+      ],
+      "via": "via Richmond & Kingston",
+      "circularRoute": true,
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:31:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W37526/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W36340",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:33:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "GLD"
+        }
+      ],
+      "via": "via Cobham",
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:33:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W36340/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W35006",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:35:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WEY"
+        },
+        {
+          "crs": "BMH"
+        }
+      ],
+      "splits": true,
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:35:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W35006/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W35469",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:35:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "RDG"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:35:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W35469/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W36728",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:36:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "HMC"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:36:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W36728/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W38344",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:37:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WAT"
+        }
+      ],
+      "via": "via Hounslow & Richmond",
+      "circularRoute": true,
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:37:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W38344/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W34886",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:39:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "PMH"
+        }
+      ],
+      "via": "via Basingstoke ",
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:39:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W34886/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W35583",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:39:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "GLD"
+        }
+      ],
+      "via": "via Epsom",
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:39:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W35583/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "Z03250",
+      "serviceOperator": "*B",
+      "transportMode": "BUS",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:40:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "XTH"
+        }
+      ],
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/Z03250/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W36521",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:42:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "SHP"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:42:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W36521/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W37006",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:42:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "BSK"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:42:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W37006/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W37678",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:45:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "PMH"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:45:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W37678/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W37821",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:45:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WAT"
+        }
+      ],
+      "via": "via Richmond & Hounslow",
+      "circularRoute": true,
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:45:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W37821/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W37215",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:46:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "CSS"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:46:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W37215/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W34541",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:50:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WSB"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:50:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W34541/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W35372",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:50:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "RDG"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:50:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W35372/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W35904",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:50:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WOK"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:50:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W35904/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W38004",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:52:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WYB"
+        }
+      ],
+      "via": "via Hounslow & Staines",
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:52:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W38004/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W34177",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:54:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "DKG"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:54:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W34177/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W33954",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:55:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "AON"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:55:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W33954/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W36869",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:57:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WAT"
+        }
+      ],
+      "via": "via Kingston & Richmond",
+      "circularRoute": true,
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:57:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W36869/2017-02-13"
+    },
+    {
+      "serviceIdentifier": "W38227",
+      "serviceOperator": "SW",
+      "transportMode": "TRAIN",
+      "scheduledInfo": {
+        "scheduledTime": "2017-02-13T16:58:00+00:00"
+      },
+      "callingType": "PickUp",
+      "destinationList": [
+        {
+          "crs": "WNR"
+        }
+      ],
+      "realTimeUpdatesInfo": {
+        "realTimeServiceInfo": {
+          "realTime": "2017-02-13T16:58:00+00:00",
+          "realTimeFlag": "Estimate"
+        }
+      },
+      "callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W38227/2017-02-13"
+    }
+  ]
+}

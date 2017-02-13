@@ -1,0 +1,191 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "node-api-trains",
+        "description": "Connecting people",
+        "version": "0.0.1"
+    },
+    "host": "localhost:3000",
+    "schemes": [
+        "https",
+        "http"
+    ],
+    "basePath": "/v1",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/traindepartures/{stationId}": {
+            "get": {
+                "summary": "Departures",
+                "description": "The departures endpoint returns information about the train departures for a station.\n",
+                "parameters": [
+                    {
+                        "name": "stationId",
+                        "in": "path",
+                        "description": "Identifier for the station",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "tags": [
+                    "Departures"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An array of departures",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/departure"
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/error"
+                        }
+                    }
+                }
+            }
+        },
+        "/stops/{departureId}/{date}": {
+            "get": {
+                "summary": "Stops",
+                "description": "The stops endpoint returns information about the stops of a particular departure.\n",
+                "parameters": [
+                    {
+                        "name": "departureId",
+                        "in": "path",
+                        "description": "Identifier for departure",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "date",
+                        "in": "path",
+                        "description": "Date of departure",
+                        "required": true,
+                        "type": "string",
+                        "format": "date-time"
+                    }
+                ],
+                "tags": [
+                    "Stops"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An array of stops for the departure",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/stop"
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/error"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "operator": {
+            "type": "object",
+            "properties": {
+                "operatorId": {
+                    "type": "string",
+                    "description": "Unique identifier for an operator"
+                },
+                "name": {
+                    "type": "string",
+                    "description": "Name of operator"
+                }
+            }
+        },
+        "station": {
+            "type": "object",
+            "properties": {
+                "stationId": {
+                    "type": "string",
+                    "description": "Unique identifier for a station"
+                },
+                "name": {
+                    "type": "string",
+                    "description": "Name of station"
+                }
+            }
+        },
+        "departure": {
+            "type": "object",
+            "properties": {
+                "operator": {
+                    "$ref": "#/definitions/operator"
+                },
+                "origin": {
+                    "$ref": "#/definitions/station"
+                },
+                "destination": {
+                    "$ref": "#/definitions/station"
+                },
+                "platform": {
+                    "type": "string",
+                    "description": "Description of the platform"
+                },
+                "timestamp": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "Date and time of departure"
+                },
+                "onTime": {
+                    "type": "boolean",
+                    "description": "Whether the departure is on time or not"
+                }
+            }
+        },
+        "stop": {
+            "type": "object",
+            "properties": {
+                "timestamp": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "Date and time of departure"
+                },
+                "operator": {
+                    "$ref": "#/definitions/operator"
+                },
+                "station": {
+                    "$ref": "#/definitions/station"
+                },
+                "platform": {
+                    "type": "string",
+                    "description": "Description of the platform"
+                },
+                "onTime": {
+                    "type": "boolean",
+                    "description": "Whether the stop is on time or not"
+                }
+            }
+        },
+        "error": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "fields": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

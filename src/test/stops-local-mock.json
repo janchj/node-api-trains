@@ -1,0 +1,184 @@
+[
+  {
+    "timestamp": "2017-02-13T15:58:00+00:00",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "station": {
+      "stationId": "WAT",
+      "name": "London Waterloo"
+    },
+    "platform": "18",
+    "onTime": true
+  },
+  {
+    "timestamp": "2017-02-13T16:02:00+00:00",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "station": {
+      "stationId": "VXH",
+      "name": "Vauxhall"
+    },
+    "platform": "3",
+    "onTime": true
+  },
+  {
+    "timestamp": "2017-02-13T16:08:00+00:00",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "station": {
+      "stationId": "CLJ",
+      "name": "Clapham Junction"
+    },
+    "platform": "6",
+    "onTime": true
+  },
+  {
+    "timestamp": "2017-02-13T16:12:00+00:00",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "station": {
+      "stationId": "PUT",
+      "name": "Putney"
+    },
+    "platform": "4",
+    "onTime": true
+  },
+  {
+    "timestamp": "2017-02-13T16:18:00+00:00",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "station": {
+      "stationId": "RMD",
+      "name": "Richmond (London)"
+    },
+    "platform": "1",
+    "onTime": true
+  },
+  {
+    "timestamp": "2017-02-13T16:22:00+00:00",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "station": {
+      "stationId": "TWI",
+      "name": "Twickenham"
+    },
+    "platform": "5",
+    "onTime": true
+  },
+  {
+    "timestamp": "2017-02-13T16:25:00+00:00",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "station": {
+      "stationId": "WTN",
+      "name": "Whitton (London)"
+    },
+    "platform": "2",
+    "onTime": true
+  },
+  {
+    "timestamp": "2017-02-13T16:29:00+00:00",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "station": {
+      "stationId": "FEL",
+      "name": "Feltham"
+    },
+    "platform": "2",
+    "onTime": true
+  },
+  {
+    "timestamp": "2017-02-13T16:33:00+00:00",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "station": {
+      "stationId": "AFS",
+      "name": "Ashford (Surrey)"
+    },
+    "platform": "2",
+    "onTime": true
+  },
+  {
+    "timestamp": "2017-02-13T16:37:00+00:00",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "station": {
+      "stationId": "SNS",
+      "name": "Staines"
+    },
+    "platform": "2",
+    "onTime": true
+  },
+  {
+    "timestamp": "2017-02-13T16:41:00+00:00",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "station": {
+      "stationId": "WRY",
+      "name": "Wraysbury"
+    },
+    "platform": "2",
+    "onTime": true
+  },
+  {
+    "timestamp": "2017-02-13T16:44:00+00:00",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "station": {
+      "stationId": "SNY",
+      "name": "Sunnymeads"
+    },
+    "platform": "2",
+    "onTime": true
+  },
+  {
+    "timestamp": "2017-02-13T16:47:00+00:00",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "station": {
+      "stationId": "DAT",
+      "name": "Datchet"
+    },
+    "platform": "2",
+    "onTime": true
+  },
+  {
+    "timestamp": "2017-02-13T16:52:00+00:00",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "station": {
+      "stationId": "WNR",
+      "name": "Windsor & Eton Riverside"
+    },
+    "platform": "1",
+    "onTime": true
+  }
+]

@@ -1,0 +1,707 @@
+[
+  {
+    "timestamp": "2017-02-13T15:54:00+00:00",
+    "departureId": "W34167",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "DKG",
+      "name": "Dorking (Main)"
+    },
+    "platform": "1",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T15:57:00+00:00",
+    "departureId": "W36864",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WAT",
+      "name": "London Waterloo"
+    },
+    "platform": "4",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T15:58:00+00:00",
+    "departureId": "W38217",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WNR",
+      "name": "Windsor & Eton Riverside"
+    },
+    "platform": "18",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:00:00+00:00",
+    "departureId": "W34722",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "PMH",
+      "name": "Portsmouth Harbour"
+    },
+    "platform": "10",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:01:00+00:00",
+    "departureId": "W37523",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WAT",
+      "name": "London Waterloo"
+    },
+    "platform": "17",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:03:00+00:00",
+    "departureId": "W36335",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "GLD",
+      "name": "Guildford"
+    },
+    "platform": "3",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:05:00+00:00",
+    "departureId": "W35077",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WEY",
+      "name": "Weymouth"
+    },
+    "platform": "8",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:05:00+00:00",
+    "departureId": "W35467",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "RDG",
+      "name": "Reading"
+    },
+    "platform": "14",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:06:00+00:00",
+    "departureId": "W36722",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "HMC",
+      "name": "Hampton Court"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:07:00+00:00",
+    "departureId": "W38342",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WAT",
+      "name": "London Waterloo"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:09:00+00:00",
+    "departureId": "W34882",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "PMH",
+      "name": "Portsmouth Harbour"
+    },
+    "platform": "5",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:09:00+00:00",
+    "departureId": "W35578",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "GLD",
+      "name": "Guildford"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:12:00+00:00",
+    "departureId": "W36516",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "SHP",
+      "name": "Shepperton"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:12:00+00:00",
+    "departureId": "W37000",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "BSK",
+      "name": "Basingstoke"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:15:00+00:00",
+    "departureId": "W37673",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "PMH",
+      "name": "Portsmouth Harbour"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:15:00+00:00",
+    "departureId": "W37817",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WAT",
+      "name": "London Waterloo"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:16:00+00:00",
+    "departureId": "W37209",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "CSS",
+      "name": "Chessington South"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:20:00+00:00",
+    "departureId": "W34537",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "EXD",
+      "name": "Exeter St David's"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:20:00+00:00",
+    "departureId": "W35366",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "RDG",
+      "name": "Reading"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:20:00+00:00",
+    "departureId": "W35898",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WOK",
+      "name": "Woking"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:22:00+00:00",
+    "departureId": "W37999",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WYB",
+      "name": "Weybridge"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:24:00+00:00",
+    "departureId": "W34172",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "DKG",
+      "name": "Dorking (Main)"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:25:00+00:00",
+    "departureId": "W33950",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "AON",
+      "name": "Alton"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:27:00+00:00",
+    "departureId": "W36866",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WAT",
+      "name": "London Waterloo"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:28:00+00:00",
+    "departureId": "W38222",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WNR",
+      "name": "Windsor & Eton Riverside"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:30:00+00:00",
+    "departureId": "W34727",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "PMH",
+      "name": "Portsmouth Harbour"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:31:00+00:00",
+    "departureId": "W37526",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WAT",
+      "name": "London Waterloo"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:33:00+00:00",
+    "departureId": "W36340",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "GLD",
+      "name": "Guildford"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:35:00+00:00",
+    "departureId": "W35006",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WEY",
+      "name": "Weymouth"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:35:00+00:00",
+    "departureId": "W35469",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "RDG",
+      "name": "Reading"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:36:00+00:00",
+    "departureId": "W36728",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "HMC",
+      "name": "Hampton Court"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:37:00+00:00",
+    "departureId": "W38344",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WAT",
+      "name": "London Waterloo"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:39:00+00:00",
+    "departureId": "W34886",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "PMH",
+      "name": "Portsmouth Harbour"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:39:00+00:00",
+    "departureId": "W35583",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "GLD",
+      "name": "Guildford"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:42:00+00:00",
+    "departureId": "W36521",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "SHP",
+      "name": "Shepperton"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:42:00+00:00",
+    "departureId": "W37006",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "BSK",
+      "name": "Basingstoke"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:45:00+00:00",
+    "departureId": "W37678",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "PMH",
+      "name": "Portsmouth Harbour"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:45:00+00:00",
+    "departureId": "W37821",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WAT",
+      "name": "London Waterloo"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:46:00+00:00",
+    "departureId": "W37215",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "CSS",
+      "name": "Chessington South"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:50:00+00:00",
+    "departureId": "W34541",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WSB",
+      "name": "Westbury (Wilts)"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:50:00+00:00",
+    "departureId": "W35372",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "RDG",
+      "name": "Reading"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:50:00+00:00",
+    "departureId": "W35904",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WOK",
+      "name": "Woking"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:52:00+00:00",
+    "departureId": "W38004",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WYB",
+      "name": "Weybridge"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:54:00+00:00",
+    "departureId": "W34177",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "DKG",
+      "name": "Dorking (Main)"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:55:00+00:00",
+    "departureId": "W33954",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "AON",
+      "name": "Alton"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:57:00+00:00",
+    "departureId": "W36869",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WAT",
+      "name": "London Waterloo"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  },
+  {
+    "timestamp": "2017-02-13T16:58:00+00:00",
+    "departureId": "W38227",
+    "operator": {
+      "operatorId": "SW",
+      "name": "South West Trains"
+    },
+    "destination": {
+      "stationId": "WNR",
+      "name": "Windsor & Eton Riverside"
+    },
+    "platform": "",
+    "onTime": true,
+    "type": "TRAIN"
+  }
+]
