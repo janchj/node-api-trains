@@ -1,94 +1,170 @@
-[{
-	"operatorId": "AW",
-	"name": "Arriva Trains Wales"
-}, {
-	"operatorId": "CC",
-	"name": "c2c"
-}, {
-	"operatorId": "CS",
-	"name": "Caledonian Sleeper"
-}, {
-	"operatorId": "CH",
-	"name": "Chiltern Railways"
-}, {
-	"operatorId": "CX",
-	"name": "CrossCountry"
-}, {
-	"operatorId": "EM",
-	"name": "East Midlands Trains"
-}, {
-	"operatorId": "ES",
-	"name": "Eurostar"
-}, {
-	"operatorId": "GX",
-	"name": "Gatwick Express"
-}, {
-	"operatorId": "GC",
-	"name": "Grand Central"
-}, {
-	"operatorId": "GN",
-	"name": "Great Northern"
-}, {
-	"operatorId": "GW",
-	"name": "Great Western Railway"
-}, {
-	"operatorId": "LE",
-	"name": "Greater Anglia"
-}, {
-	"operatorId": "HC",
-	"name": "Heathrow Connect"
-}, {
-	"operatorId": "HX",
-	"name": "Heathrow Express"
-}, {
-	"operatorId": "HT",
-	"name": "Hull Trains"
-}, {
-	"operatorId": "IL",
-	"name": "Island Line"
-}, {
-	"operatorId": "LM",
-	"name": "London Midland"
-}, {
-	"operatorId": "LO",
-	"name": "London Overground"
-}, {
-	"operatorId": "LT",
-	"name": "London Underground"
-}, {
-	"operatorId": "ME",
-	"name": "Merseyrail"
-}, {
-	"operatorId": "NT",
-	"name": "Northern"
-}, {
-	"operatorId": "SR",
-	"name": "ScotRail"
-}, {
-	"operatorId": "SW",
-	"name": "South West Trains"
-}, {
-	"operatorId": "SE",
-	"name": "Southeastern"
-}, {
-	"operatorId": "SN",
-	"name": "Southern"
-}, {
-	"operatorId": "SX",
-	"name": "Stansted Express"
-}, {
-	"operatorId": "TL",
-	"name": "Thameslink"
-}, {
-	"operatorId": "XR",
-	"name": "TfL Rail"
-}, {
-	"operatorId": "TP",
-	"name": "TransPennine Express"
-}, {
-	"operatorId": "VT",
-	"name": "Virgin Trains"
-}, {
-	"operatorId": "GR",
-	"name": "Virgin Trains East Coast"
-}]
+[
+	{
+		"operatorId": "LE",
+		"name": "Abellio Greater Anglia"
+	},
+	{
+		"operatorId": "AW",
+		"name": "Arriva Trains Wales"
+	},
+	{
+		"operatorId": "CC",
+		"name": "c2c"
+	},
+	{
+		"operatorId": "CS",
+		"name": "Caledonian Sleeper"
+	},
+	{
+		"operatorId": "CH",
+		"name": "Chiltern Railways"
+	},
+	{
+		"operatorId": "CX",
+		"name": "CrossCountry"
+	},
+	{
+		"operatorId": "EM",
+		"name": "East Midlands Trains"
+	},
+	{
+		"operatorId": "ZZ",
+		"name": "GB Railfreight"
+	},
+	{
+		"operatorId": "ES",
+		"name": "Eurostar"
+	},
+	{
+		"operatorId": "GX",
+		"name": "Gatwick Express"
+	},
+	{
+		"operatorId": "GR",
+		"name": "East Coast"
+	},
+	{
+		"operatorId": "GC",
+		"name": "Grand Central"
+	},
+	{
+		"operatorId": "GN",
+		"name": "Great Northern"
+	},
+	{
+		"operatorId": "GW",
+		"name": "First Great Western"
+	},
+	{
+		"operatorId": "LE",
+		"name": "Greater Anglia"
+	},
+	{
+		"operatorId": "HC",
+		"name": "Heathrow Connect"
+	},
+	{
+		"operatorId": "HX",
+		"name": "Heathrow Express"
+	},
+	{
+		"operatorId": "HT",
+		"name": "First Hull Trains"
+	},
+	{
+		"operatorId": "IL",
+		"name": "Island Line"
+	},
+	{
+		"operatorId": "LM",
+		"name": "London Midland"
+	},
+	{
+		"operatorId": "LO",
+		"name": "London Overground"
+	},
+	{
+		"operatorId": "LT",
+		"name": "London Underground"
+	},
+	{
+		"operatorId": "ME",
+		"name": "Merseyrail"
+	},
+	{
+		"operatorId": "NT",
+		"name": "Northern"
+	},
+	{
+		"operatorId": "SR",
+		"name": "First Scotrail"
+	},
+	{
+		"operatorId": "SW",
+		"name": "South West Trains"
+	},
+	{
+		"operatorId": "SE",
+		"name": "Southeastern"
+	},
+	{
+		"operatorId": "SN",
+		"name": "Southern"
+	},
+	{
+		"operatorId": "SX",
+		"name": "Stansted Express"
+	},
+	{
+		"operatorId": "TL",
+		"name": "Thameslink"
+	},
+	{
+		"operatorId": "XR",
+		"name": "TfL Rail"
+	},
+	{
+		"operatorId": "TP",
+		"name": "TransPennine Express"
+	},
+	{
+		"operatorId": "VT",
+		"name": "Virgin Trains"
+	},
+	{
+		"operatorId": "GR",
+		"name": "Virgin Trains East Coast"
+	},
+	{
+		"operatorId": "LN",
+		"name": "Great North Western Railway"
+	},
+	{
+		"operatorId": "LR",
+		"name": "Network Rail"
+	},
+	{
+		"operatorId": "TW",
+		"name": "Nexus (Tyne & Wear Metro)"
+	},
+	{
+		"operatorId": "NY",
+		"name": "North Yorkshire Moors Railway"
+	},
+	{
+		"operatorId": "NT",
+		"name": "Northern Rail"
+	},
+	{
+		"operatorId": "SJ",
+		"name": "South Yorkshire Supertram"
+	},
+	{
+		"operatorId": "SP",
+		"name": "Swanage Railway"
+	},
+	{
+		"operatorId": "WR",
+		"name": "West Coast Railway Co."
+	}
+]
