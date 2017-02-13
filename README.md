@@ -1,5 +1,5 @@
-## Wrapper for trainline's API and expose departures and stops based on stations.
-Responses tailored based on required data to be exposes.
+## Wrapper for trainline's API to expose departure information.
+Responses tailored based on required data to be exposed.
 For API documentation, please run application and browse /docs.
 
 ## Stack
@@ -39,9 +39,13 @@ will be great to 'hook' the errors to slack, so team-members would be notified i
 * Authentication, using any existing oauth server and auth0/passport.
 * Expose additional endpoints (operators? stations?)
 * Use firebase or remote data source to store lookup values, to have dynamic lookup models.
-* Caching, with more 'accurate', to speed things up.
-* additional remote logging, possibly using an external service like papertrail.
+* External caching, with more 'accurate' expiration, to speed things up, possibly using redis.
+* Additional remote logging, possibly using an external service like papertrail.
+* Add hosting with heroku?
 
 ## Run
 * npm install
 * npm run
+
+## Docs
+* Run and navigate to path '/docs'
