@@ -45,7 +45,7 @@ will be great to 'hook' the errors to slack, so team-members would be notified i
 
 ## Run
 * npm install
-* npm run
+* npm run (default: http://localhost:3000)
 
 ## Docs
-* Run and navigate to path '/docs'
+* Run and navigate to path '/docs' (default: http://localhost:3000/docs)
