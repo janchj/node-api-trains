@@ -1,13 +1,13 @@
 const _ = require('lodash');
-const cache = require('node-cache');
+const Cache = require('node-cache');
 
 const shared = require('../shared');
-const models = require('../services');
+const services = require('../services');
 
 /** cache config */
 const cacheTTL = 300; // time in seconds
 const cacheRefresh = 120; // time in seconds
-const departuresCache = new cache({ stdTTL: cacheTTL, checkperiod: cacheRefresh });
+const departuresCache = new Cache({ stdTTL: cacheTTL, checkperiod: cacheRefresh });
 
 /** transform departures to have only required values */
 const transformDepartures = departures =>
@@ -38,7 +38,7 @@ const getTrainDeparturesByStationID = (req, res, next) => {
     if (!err) {
       if (value === undefined) {
         // not cached, retrieve key and store
-        models.departures.fetchById(stationId)
+        services.departures.fetchById(stationId)
           .then((departures) => {
             /* valid response */
             if (departures.statusCode === 200) {
