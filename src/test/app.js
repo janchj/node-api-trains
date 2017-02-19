@@ -1,5 +1,3 @@
-'use strict';
-
 const request = require('supertest');
 const nock = require('nock');
 
@@ -19,9 +17,9 @@ describe('GET /traindepartures/{stationId}', () => {
 
   it('missing stationId should return 404 BadRequest', (done) => {
     request(app)
-    .get('/traindepartures/')
-    .expect(404)
-    .end(done);
+      .get('/traindepartures/')
+      .expect(404)
+      .end(done);
   });
 
   it('valid stationId should return 200 Success', (done) => {
